@@ -15,7 +15,7 @@ def create_db():
 
 create_db()
 
-# Define Functions
+# Functions
 def valid_username(username):
     return len(username) >= 5 and username.isalnum() and username[0].isalpha()
 
