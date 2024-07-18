@@ -82,7 +82,7 @@ def delete_messages(username):
     conn.commit()
     conn.close()
 
-# Main Program
+# Main Program Code
 print("Welcome to Facebook Messenger 2.0!")
 
 while True:
